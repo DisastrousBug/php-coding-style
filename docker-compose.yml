@@ -1,0 +1,7 @@
+services:
+  app:
+    image: php:8.4-cli
+    restart: "no"
+    pull_policy: always
+    volumes:
+      - ./:/app
